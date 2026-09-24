@@ -1,0 +1,20 @@
+
+
+ESPECIFICACIONES ESPECIALES Y CONFIGURACIÓN DEL SISTEMA
+
+1. MANEJO DE ARCHIVOS Y CARPETAS
+El programa requiere y utiliza dos archivos de texto para funcionar ("usuarios.txt" y "contrasenas.txt"). 
+- NO es necesario crearlos ni incluirlos manualmente en la carpeta antes de la ejecución. 
+- El código cuenta con una validación inicial: si no detecta los archivos en el directorio raíz (donde se ejecuta el .exe), los generará automáticamente en el primer arranque para evitar errores de lectura.
+
+2. CREDENCIALES DE ACCESO (LOGIN)
+Para evaluar el programa, utilice los siguientes datos:
+
+   * Usuario: HARO
+   * Contraseña: 12345678
+
+3. RESTRICCIONES AL AGREGAR NUEVOS USUARIOS
+Si desea probar el módulo de "Agregar Usuario", tome en cuenta las siguientes reglas estrictas que el sistema validará:
+- El nombre de usuario soporta de 1 a 8 caracteres como máximo.
+- La contraseña debe tener EXACTAMENTE 8 caracteres. Si se ingresan más o menos, el sistema rechazará el registro.
+- El límite máximo del sistema es de 8 usuarios registrados en total.
